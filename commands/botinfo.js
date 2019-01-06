@@ -8,6 +8,7 @@ module.exports.run = async (bot, message, args)  => {
  embed.addField("Bot Name:", bot.user.username, true);
  embed.addField("Bot Owner:", "Rishik01#7125", true);
  embed.addField("Total Servers:", bot.guilds.size, true);
+ embed.addField("Created On:", bot.user.createdAt, true);
 }
 
 module.exports.help = {
